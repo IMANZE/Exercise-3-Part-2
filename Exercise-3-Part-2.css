@@ -6,8 +6,7 @@
     border-radius: 20px;
     overflow: hidden;
     border: 1px solid black;
-      
-    
+         
 }
 
 .picture{
@@ -15,3 +14,95 @@
   height: 100%;
   width: 100%;
 }
+
+.top{
+    height: 80px;
+    width: 110px;
+    border-radius: 40px;
+    font-size: 40px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    z-index:3;
+    bottom: 484px;
+    left: 375px;
+    right: 0;
+    text-align: center;
+    line-height: 0px;
+    transition: transform 0.8s ease-out ;
+
+}
+.full-link{
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 0;
+    width: 250px;
+    height: 70px;
+    z-index: 2;
+    font-size: 28px;
+    line-height: 0px;
+    border-radius: 30px;
+    line-height: 0px;
+    
+    display: inline-block;  
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    font-size: 30px;
+       
+}
+
+
+    
+    
+   
+
+.arrow-inside{
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 140px;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+    font-size: 28px;
+    border-radius: 50%;
+    text-align: center
+    
+
+}
+
+.ellipsis{
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+    z-index: 4;
+    font-size: 28px;
+    border-radius: 50%;
+    text-align: center
+    
+    
+}
+.bottom{
+    transition: transform 1s ease-out ;
+}
+
+.top:hover {
+    transform: translateY(-150%);
+}
+
+.bottom:hover{
+    transform: translateX(100%);
+}
+
+.full-link > span {
+    line-height: 70px;
+}
+ .fa-solid  {
+     line-height: 70px;
+ }

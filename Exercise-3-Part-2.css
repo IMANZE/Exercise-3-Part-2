@@ -1,0 +1,17 @@
+.picture-holder{
+    position: relative;
+    border-radius: 2px;
+    height: 580px;
+    width: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid black;
+      
+    
+}
+
+.picture{
+   object-fit: cover; 
+  height: 100%;
+  width: 100%;
+}
